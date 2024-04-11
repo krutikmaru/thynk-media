@@ -9,7 +9,7 @@ function Layout({ children }) {
   return (
     <div className={rootStyle}>
       <Header />
-      <div className="min-h-screen mt-16 dark:bg-neutral-900 ">{children}</div>
+      <div className="min-h-screen pt-16 dark:bg-neutral-950 ">{children}</div>
       <Footer />
     </div>
   );
