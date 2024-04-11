@@ -17,7 +17,7 @@ function MobileNavbarControls() {
     >
       <FontAwesomeIcon
         icon={faEllipsis}
-        className="text-black dark:text-white"
+        className="text-2xl text-black dark:text-white"
       />
     </motion.div>
   );
