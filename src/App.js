@@ -1,5 +1,7 @@
+import Landing from "./pages/Landing/Landing";
+
 function App() {
-  return <div className="App">Thynk Media</div>;
+  return <Landing />;
 }
 
 export default App;

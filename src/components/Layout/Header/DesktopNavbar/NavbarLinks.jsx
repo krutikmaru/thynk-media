@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { links } from "../../../utils/data/navbar/links";
+import { links } from "../../../../utils/data/navbar/links";
 import { motion } from "framer-motion";
 
 function NavbarLinks() {

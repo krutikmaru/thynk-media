@@ -3,7 +3,7 @@ import NavbarLogo from "./NavbarLogo";
 import NavbarLinks from "./NavbarLinks";
 import NavbarControls from "./NavbarControls";
 
-function StuckNavbar() {
+function DesktopNavbar() {
   return (
     <div className="h-full w-full flex items-center justify-between px-4 dark:bg-brand-dark-purple-primary backdrop-blur-md text-white border-b-[1px] border-brand-purple-border">
       <NavbarLogo />
@@ -13,4 +13,4 @@ function StuckNavbar() {
   );
 }
 
-export default StuckNavbar;
+export default DesktopNavbar;

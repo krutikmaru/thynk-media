@@ -1,9 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { useApplicationManager } from "../../../contexts/ApplicationContext";
+import { useApplicationManager } from "../../../../contexts/ApplicationContext";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMoon } from "@fortawesome/free-regular-svg-icons";
-import { faSun } from "@fortawesome/free-solid-svg-icons";
+import { faMoon, faLightbulb } from "@fortawesome/free-regular-svg-icons";
 
 function NavbarControls() {
   const { theme, toggleTheme } = useApplicationManager();
@@ -12,13 +11,13 @@ function NavbarControls() {
       initial={{ opacity: 0, x: 10 }}
       animate={{ opacity: 1, x: 0 }}
       transition={{ delay: 0.3, duration: 0.2 }}
-      className="cursor-pointer text-neutral-800 text-xl"
+      className="cursor-pointer text-neutral-800 dark:text-white text-xl"
       onClick={toggleTheme}
     >
       {theme === "light" ? (
         <FontAwesomeIcon icon={faMoon} />
       ) : (
-        <FontAwesomeIcon icon={faSun} />
+        <FontAwesomeIcon icon={faLightbulb} />
       )}
     </motion.div>
   );
