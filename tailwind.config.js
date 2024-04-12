@@ -7,6 +7,8 @@ module.exports = {
       md: "550px",
       lg: "750px",
       xl: "900px",
+      "2xl": "1000px",
+      "3xl": "1200px",
     },
     fontFamily: {
       "lexend-deca": ["Lexend Deca", "sans-serif", "system-ui"],

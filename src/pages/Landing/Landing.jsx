@@ -1,13 +1,13 @@
 import React from "react";
-import Glow from "../../components/Landing/Glow";
 import Hero from "../../components/Landing/Hero";
 import { motion } from "framer-motion";
+import Choose from "../../components/Landing/Choose/Choose";
 
 function Landing() {
   return (
     <motion.div>
-      <Glow />
       <Hero />
+      <Choose />
     </motion.div>
   );
 }

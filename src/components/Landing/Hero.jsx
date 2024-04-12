@@ -3,10 +3,12 @@ import { useApplicationManager } from "../../contexts/ApplicationContext";
 import { motion } from "framer-motion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
+import Glow from "./Glow";
 
 function Hero() {
   return (
     <div className="flex flex-col justify-center items-center space-y-4 pt-16 relative z-[10000]">
+      <Glow />
       <Introduction />
       <div className="w-full h-44 flex"></div>
     </div>
@@ -16,7 +18,7 @@ function Hero() {
 function Introduction() {
   const { theme } = useApplicationManager();
   return (
-    <div className="flex flex-col px-10">
+    <div className="flex flex-col px-10 relative z-[100000]">
       <motion.div
         variants={getAnimationVariants(0.2)}
         initial="initial"

@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Glow = () => {
   return (
-    <div className="absolute w-full h-full left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 overflow-y-hidden">
+    <div className="absolute w-full h-full left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 overflow-hidden">
       <div className="w-full h-32 absolute left-0 bottom-0 z-10 bg-gradient-to-t from-white dark:from-brand-dark-purple-primary to-transparent"></div>
       <motion.div
         initial={{ opacity: 0, y: 0 }}

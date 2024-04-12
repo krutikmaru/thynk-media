@@ -10,6 +10,6 @@ html {
 }
 
 * {
-  @apply transition-colors duration-200 ease-in-out;
+  @apply transition-colors duration-[50ms] ease-in-out;
   @apply font-lexend-deca;
 }
