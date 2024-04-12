@@ -3,6 +3,7 @@ import { Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import Layout from "../components/Layout/Layout";
 import App from "../App";
+import Team from "../pages/Team/OurTeam";
 
 function RoutesWrapper() {
   const location = useLocation();
@@ -11,6 +12,7 @@ function RoutesWrapper() {
       <AnimatePresence>
         <Routes location={location} key={location.key}>
           <Route path="/" element={<App key={"Landing"} />} />
+          <Route path="/our-team" element={<Team key={"Team"} />} />
         </Routes>
       </AnimatePresence>
     </>

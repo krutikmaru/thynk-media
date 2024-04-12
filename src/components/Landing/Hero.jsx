@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 import Glow from "./Glow";
+import { scrollToSection } from "../../utils/functions/scrollToSection";
 
 function Hero() {
   return (
@@ -58,7 +59,10 @@ function Introduction() {
         exit="exit"
         className="flex justify-center items-center"
       >
-        <button className="bg-black dark:bg-white dark:text-black text-white flex items-center space-x-2  px-6 py-2 rounded-md outline-fuchsia-400 outline-offset-2">
+        <button
+          onClick={() => scrollToSection("why-choose-us")}
+          className="bg-black dark:bg-white dark:text-black text-white flex items-center space-x-2  px-6 py-2 rounded-md outline-fuchsia-400 outline-offset-2"
+        >
           <span>Learn More</span>
           <FontAwesomeIcon icon={faArrowDown} />
         </button>

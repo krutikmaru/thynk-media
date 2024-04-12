@@ -9,7 +9,10 @@ import Reach from "./Reach";
 
 function Choose() {
   return (
-    <div className="text-black dark:text-white min-h-screen px-10 pb-20">
+    <div
+      id="why-choose-us"
+      className="text-black dark:text-white min-h-screen px-10 "
+    >
       <h1 className="text-7xl font-light">Why Choose Us</h1>
       <div className="flex flex-col space-y-4 lg:space-y-0 lg:space-x-4 lg:flex-row justify-evenly items-center mt-10">
         {/* First Column */}

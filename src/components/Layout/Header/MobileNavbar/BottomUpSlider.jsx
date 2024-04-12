@@ -3,7 +3,8 @@ import { motion } from "framer-motion";
 import { useApplicationManager } from "../../../../contexts/ApplicationContext";
 
 function BottomUpSlider({ children }) {
-  const { toggleMenu } = useApplicationManager();
+  const { closeMenu } = useApplicationManager();
+
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -14,7 +15,7 @@ function BottomUpSlider({ children }) {
       }}
       exit={{ opacity: 0, transition: { duration: 0.2, ease: "easeInOut" } }}
       className="w-screen h-screen fixed top-0 bg-[#000000c2] left-0 z-[1000000]"
-      onClick={toggleMenu}
+      onClick={closeMenu}
     >
       <motion.div
         initial={{ y: "100%" }}

@@ -37,8 +37,11 @@ export const ApplicationManagerProvider = ({ children }) => {
     }
   };
 
-  const toggleMenu = () => {
-    setIsMobileMenuActive(!isMobileMenuActive);
+  const closeMenu = () => {
+    setIsMobileMenuActive(false);
+  };
+  const openMenu = () => {
+    setIsMobileMenuActive(true);
   };
 
   const value = {
@@ -46,7 +49,8 @@ export const ApplicationManagerProvider = ({ children }) => {
     isSmallScreen,
     isMobileMenuActive,
     toggleTheme,
-    toggleMenu,
+    openMenu,
+    closeMenu,
   };
   return (
     <ApplicationManagerContext.Provider value={value}>

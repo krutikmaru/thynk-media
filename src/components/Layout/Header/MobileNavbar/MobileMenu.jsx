@@ -10,7 +10,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 function MobileMenu() {
-  const { theme, toggleTheme, toggleMenu } = useApplicationManager();
+  const { theme, toggleTheme, closeMenu } = useApplicationManager();
 
   return (
     <div className="w-full pb-52 p-5">
@@ -46,7 +46,7 @@ function MobileMenu() {
           )}
         </li>
         <li
-          onClick={toggleMenu}
+          onClick={closeMenu}
           className="w-full flex items-center justify-start space-x-4 text-red-400 py-5 text-2xl"
         >
           <FontAwesomeIcon icon={faXmark} className="w-12" />

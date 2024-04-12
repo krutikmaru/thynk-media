@@ -5,14 +5,14 @@ import { faEllipsis } from "@fortawesome/free-solid-svg-icons";
 import { useApplicationManager } from "../../../../contexts/ApplicationContext";
 
 function MobileNavbarControls() {
-  const { toggleMenu } = useApplicationManager();
+  const { openMenu } = useApplicationManager();
 
   return (
     <motion.div
       initial={{ opacity: 0, x: 10 }}
       animate={{ opacity: 1, x: 0 }}
       transition={{ delay: 0.3, duration: 0.2 }}
-      onClick={toggleMenu}
+      onClick={openMenu}
       className="text-black"
     >
       <FontAwesomeIcon
