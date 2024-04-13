@@ -1,7 +1,7 @@
 export const teamMembers = [
   {
     name: "Viraj Maru",
-    position: "",
+    role: "Founder",
     animationValues: {
       x: ["0%", "-5%", "5%", "0%"],
       y: ["0%", "15%", "0%"],
@@ -15,7 +15,7 @@ export const teamMembers = [
   },
   {
     name: "Krutik Maru",
-    position: "",
+    role: "Developer",
     animationValues: {
       x: ["0%", "-10%", "10%", "0%"],
       y: ["0%", "20%", "0%"],
@@ -29,10 +29,10 @@ export const teamMembers = [
   },
   {
     name: "Aryan Suryavanshi",
-    position: "",
+    role: "Social Media Manager",
     animationValues: {
-      x: ["5%", "0%", "5%"],
-      y: ["10%", "0%", "10%"],
+      x: ["0%", "-5%", "5%", "0%"],
+      y: ["0%", "15%", "0%"],
       duration: 5,
     },
     tailwind: {
@@ -43,7 +43,7 @@ export const teamMembers = [
   },
   {
     name: "Pragnesh Patel",
-    position: "",
+    role: "Content Creator",
     animationValues: {
       x: ["0%", "-10%", "10%", "0%"],
       y: ["0%", "20%", "0%"],
@@ -57,7 +57,7 @@ export const teamMembers = [
   },
   {
     name: "Ketan Myenger",
-    position: "",
+    role: "Graphic Designer",
     animationValues: {
       x: ["0%", "-5%", "5%", "0%"],
       y: ["0%", "15%", "0%"],
@@ -71,7 +71,7 @@ export const teamMembers = [
   },
   {
     name: "Sheena Bajaj",
-    position: "",
+    role: "Ads Manager",
     animationValues: {
       x: ["0%", "-10%", "10%", "0%"],
       y: ["0%", "20%", "0%"],
