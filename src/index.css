@@ -13,3 +13,10 @@ html {
   @apply transition-colors duration-[50ms] ease-in-out;
   @apply font-lexend-deca;
 }
+
+.text-shadow-white {
+  text-shadow: 0px 0px 25px #fffffff0;
+}
+.text-shadow-black {
+  text-shadow: 0px 0px 5px #7c7c7cf0;
+}

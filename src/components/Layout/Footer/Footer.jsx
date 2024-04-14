@@ -58,8 +58,11 @@ function Footer() {
         </div>
       </div>
       <div className=" py-5 flex flex-col lg:flex-row justify-between items-start space-y-4 lg:space-y-0 sm:items-center border-t-[1px] text-sm text-neutral-600 dark:text-neutral-400 border-neutral-200 dark:border-neutral-900">
-        <h1>Copyright © 2024 thynk media. All right reserved.</h1>
-        <h1>Made with 💜 by thynk, India</h1>
+        <h1>
+          Copyright © {new Date().getFullYear()} thynk media. All right
+          reserved.
+        </h1>
+        <h1>Made with 💜 by Krutik Maru @ thynk, India</h1>
       </div>
     </div>
   );

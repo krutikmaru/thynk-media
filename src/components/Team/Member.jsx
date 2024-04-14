@@ -14,7 +14,7 @@ function Member({
 }) {
   const memberTailwind = `w-24 md:w-36 h-24 md:h-36 p-5 flex justify-center items-center rounded-full bg-slate-200 absolute ${
     isDisplay ? "z-[100000]" : "z-[10]"
-  } ${tailwind.top} ${
+  } ${isDisplay ? "border-4 border-purple-500" : ""} ${tailwind.top} ${
     tailwind.left
   } transform -translate-x-1/2 -translate-y-1/2 cursor-pointer dark:bg-brand-dark-purple-secondary`;
 
