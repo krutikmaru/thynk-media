@@ -5,6 +5,7 @@ import Layout from "../components/Layout/Layout";
 import App from "../App";
 import Team from "../pages/Team/OurTeam";
 import Services from "../pages/Services/Services";
+import Results from "../pages/Results/Results";
 
 function RoutesWrapper() {
   const location = useLocation();
@@ -15,6 +16,9 @@ function RoutesWrapper() {
           <Route path="/" element={<App key={"Landing"} />} />
           <Route path="/our-team" element={<Team key={"Team"} />} />
           <Route path="/services" element={<Services key={"Services"} />} />
+
+          {/* Routes not using Layout */}
+          <Route path="/results" element={<Results key={"Results"} />} />
         </Routes>
       </AnimatePresence>
     </>

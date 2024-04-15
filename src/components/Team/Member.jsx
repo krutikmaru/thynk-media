@@ -58,7 +58,7 @@ function Member({
               y: -40,
               transition: { duration: 0.1, ease: "linear" },
             }}
-            className="absolute px-5 py-2 -bottom-[40%] bg-slate-100 dark:bg-brand-dark-purple-secondary shadow-xl rounded-md border-[1px] border-slate-300 dark:border-neutral-700 text-xs"
+            className="absolute min-w-max px-5 py-2 -bottom-[50%] flex flex-col items-center bg-slate-100 dark:bg-brand-dark-purple-secondary shadow-xl rounded-md border-[1px] border-slate-300 dark:border-neutral-700 text-xs"
           >
             <h1>{name}</h1>
             <h1 className="text-slate-400 dark:text-neutral-500">{role}</h1>

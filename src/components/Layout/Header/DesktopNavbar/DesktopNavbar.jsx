@@ -5,7 +5,7 @@ import NavbarControls from "./NavbarControls";
 
 function DesktopNavbar() {
   return (
-    <div className="h-full w-full flex items-center justify-between px-4 dark:bg-brand-dark-purple-primary backdrop-blur-md text-white border-b-[1px] border-brand-purple-border">
+    <div className="h-full w-full flex items-center justify-between px-4  backdrop-blur-lg text-white border-b-[1px] border-brand-purple-border">
       <NavbarLogo />
       <NavbarLinks />
       <NavbarControls />

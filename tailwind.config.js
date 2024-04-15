@@ -22,7 +22,7 @@ module.exports = {
         "brand-dark-purple-secondary": "#0c0c0c",
         "brand-purple-navigation": "#08082126",
         "brand-purple-white": "#565496",
-        "brand-purple-border": "#131334",
+        "brand-purple-border": "#141414",
         "brand-white-primary-light": "#efefef",
       },
       boxShadow: {

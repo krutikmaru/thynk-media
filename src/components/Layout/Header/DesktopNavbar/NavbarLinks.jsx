@@ -14,7 +14,7 @@ function NavbarLinks() {
       {links.map((navbarLink) => {
         return (
           <Link
-            className=" dark:text-white text-black hover:underline"
+            className="dark:text-white text-black hover:underline hover:text-purple-500 dark:hover:text-purple-500"
             key={navbarLink.to}
             to={navbarLink.to}
           >
