@@ -6,14 +6,17 @@ function Footer() {
   const { theme } = useApplicationManager();
 
   const usefulLinks = [
-    { title: "Projects", to: "/projects" },
+    { title: "Results", to: "/results" },
     { title: "Services", to: "/services" },
     { title: "Our Team", to: "/our-team" },
   ];
 
   const otherLinks = [
     { title: "Careers", to: "/careers" },
-    { title: "Terms & Conditions", to: "/terms-and-conditions" },
+    {
+      title: "Terms & Conditions",
+      to: "/terms-and-conditions",
+    },
     { title: "About Us", to: "/about-us" },
   ];
   return (
@@ -32,6 +35,7 @@ function Footer() {
             {usefulLinks.map((userfulLink) => {
               return (
                 <Link
+                  onClick={() => window.scrollTo(0, 0)}
                   key={userfulLink.to}
                   className="text-sm text-neutral-600 dark:text-neutral-400 hover:text-brand-beige hover:underline"
                   to={userfulLink.to}
@@ -46,6 +50,7 @@ function Footer() {
             {otherLinks.map((otherLink) => {
               return (
                 <Link
+                  onClick={() => window.scrollTo(0, 0)}
                   key={otherLink.to}
                   className="text-sm text-neutral-600 dark:text-neutral-400 hover:text-brand-beige hover:underline"
                   to={otherLink.to}

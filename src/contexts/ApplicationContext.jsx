@@ -13,7 +13,7 @@ export const useApplicationManager = () => {
 };
 
 export const ApplicationManagerProvider = ({ children }) => {
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("dark");
   const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth <= 850);
   const [isMobileMenuActive, setIsMobileMenuActive] = useState(false);
 

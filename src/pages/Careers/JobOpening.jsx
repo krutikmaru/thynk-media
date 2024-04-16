@@ -29,7 +29,7 @@ const JobOpening = () => {
           ease: "easeInOut",
         },
       }}
-      className="max-w-2xl mx-auto px-4 py-8 flex flex-col space-y-4"
+      className="max-w-2xl mx-auto px-10 py-8 flex flex-col space-y-4"
     >
       <div>
         <h2 className="text-2xl font-semibold mb-4 dark:text-neutral-200">
@@ -92,7 +92,7 @@ const JobOpening = () => {
           href="https://www.instagram.com/thynkmedia.hq"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center text-purple-500 hover:underline"
+          className="flex items-center text-fuchsia-500 hover:underline"
         >
           <FontAwesomeIcon icon={faInstagram} className="mr-2" />
           Instagram
