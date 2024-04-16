@@ -36,13 +36,13 @@ export const teamMembers = [
       duration: 5,
     },
     tailwind: {
-      top: "top-[50%] lg:top-[20%]",
-      left: "left-[60%] lg:left-[80%]",
+      top: "top-[60%]",
+      left: "left-[10%]",
     },
     image: "assets/images/team/aryan.png",
   },
   {
-    name: "Pragnesh Patel",
+    name: "Ananya Kothari",
     role: "Content Creator",
     animationValues: {
       x: ["0%", "-10%", "10%", "0%"],
@@ -53,10 +53,10 @@ export const teamMembers = [
       top: "top-[70%] lg:top-[60%]",
       left: "left-[50%] lg:left-[65%]",
     },
-    image: "assets/images/team/pragnesh.png",
+    image: "assets/images/team/ananya.png",
   },
   {
-    name: "Ketan Myenger",
+    name: "Riya Barot",
     role: "Graphic Designer",
     animationValues: {
       x: ["0%", "-5%", "5%", "0%"],
@@ -64,13 +64,13 @@ export const teamMembers = [
       duration: 5,
     },
     tailwind: {
-      top: "top-[60%]",
-      left: "left-[10%]",
+      top: "top-[50%] lg:top-[20%]",
+      left: "left-[60%] lg:left-[80%]",
     },
-    image: "assets/images/team/ketan.png",
+    image: "assets/images/team/riya.png",
   },
   {
-    name: "Sheena Bajaj",
+    name: "Sheena Modi",
     role: "Ads Manager",
     animationValues: {
       x: ["0%", "-10%", "10%", "0%"],
