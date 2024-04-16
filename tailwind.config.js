@@ -3,7 +3,7 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     screens: {
-      sm: "350px",
+      sm: "420px",
       md: "550px",
       lg: "750px",
       xl: "900px",
@@ -28,6 +28,8 @@ module.exports = {
       boxShadow: {
         "ball-level-1": "-40px -60px 100px #932df930",
         "ball-level-2": "40px -60px 100px #932df929",
+        "instagram-icon": "0 25px 70px #d72b84",
+        "linkedin-icon": "0 0 70px #2197BD",
       },
     },
   },

@@ -30,14 +30,16 @@ function Testimonial({ comment, stars, index }) {
         opacity: 0,
         transition: { duration: 0.4 },
       }}
-      className="w-[400px] bg-neutral-100 dark:bg-brand-dark-purple-secondary shadow-lg p-10 rounded-lg"
+      className="w-[300px] md:w-[400px] bg-neutral-100 dark:bg-brand-dark-purple-secondary shadow-lg p-10 rounded-lg"
     >
       <div className="flex flex-col space-y-4 items-start">
         <FontAwesomeIcon
           icon={faQuoteLeft}
           className="text-5xl text-black dark:text-white"
         />
-        <p>{comment}</p>
+        <p className="text-sm md:text-base dark:text-neutral-400 dark:font-light">
+          {comment}
+        </p>
       </div>
       <div className="border-t-[1px] border-neutral-300 mt-4 pt-4">
         {starIconsArray}
