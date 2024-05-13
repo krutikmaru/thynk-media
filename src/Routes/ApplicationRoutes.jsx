@@ -10,6 +10,7 @@ import TermsAndConditions from "../pages/Terms&Conditions/TermsAndConditions";
 import Careers from "../pages/Careers/Careers";
 import JobOpening from "../pages/Careers/JobOpening";
 import AboutUs from "../pages/AboutUs/AboutUs";
+import OurClients from "../pages/Clients/OurClients";
 
 function RoutesWrapper() {
   const location = useLocation();
@@ -19,6 +20,7 @@ function RoutesWrapper() {
         <Routes location={location} key={location.key}>
           <Route path="/" element={<App key={"Landing"} />} />
           <Route path="/our-team" element={<Team key={"Team"} />} />
+          <Route path="/our-clients" element={<OurClients key={"Clients"} />} />
           <Route path="/services" element={<Services key={"Services"} />} />
           <Route path="/about-us" element={<AboutUs key={"AboutUs"} />} />
           <Route path="/careers" element={<Careers key={"Careers"} />} />
