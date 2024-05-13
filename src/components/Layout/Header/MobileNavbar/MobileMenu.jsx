@@ -22,7 +22,7 @@ function MobileMenu() {
               className="w-full border-b-[1px] flex items-center justify-start space-x-4 text-black dark:text-brand-beige border-b-neutral-200 dark:border-b-neutral-800 py-5 text-2xl"
             >
               <FontAwesomeIcon icon={link.icon} className="w-12" />
-              <Link onClick={closeMenu} to={link.to}>
+              <Link className="w-full" onClick={closeMenu} to={link.to}>
                 {link.title}
               </Link>
             </li>

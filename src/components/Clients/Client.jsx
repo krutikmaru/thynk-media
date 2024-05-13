@@ -2,7 +2,7 @@ import React from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
 function Client({ name, image, isDisplay, showDetails }) {
-  const clientTailwind = `w-24 md:w-36 h-24 md:h-36 flex justify-center items-center rounded-full relative bg-slate-200 ${
+  const clientTailwind = `w-36 h-36 flex justify-center items-center rounded-full relative bg-slate-200 ${
     isDisplay ? "z-[100000]" : "z-[10]"
   } ${
     isDisplay ? "border-4 border-purple-500" : ""

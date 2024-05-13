@@ -44,7 +44,7 @@ function Clients() {
           y: 20,
           transition: { duration: 0.4, ease: "easeInOut" },
         }}
-        className="relative w-full min-h-screen pb-24 space-y-10 md:space-y-0 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 place-items-center overflow-hidden"
+        className="relative w-full min-h-screen pb-24 px-10 lg:px-0 space-y-10 md:space-y-0 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 place-items-center overflow-hidden"
       >
         {clients.map((client) => (
           <Client
