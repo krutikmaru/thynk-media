@@ -67,7 +67,7 @@ function Footer() {
           Copyright © {new Date().getFullYear()} thynk media. All right
           reserved.
         </h1>
-        <h1>Made with 💜 by Krutik Maru @ thynk, India</h1>
+        <h1>Made with 💜 @thynk, India</h1>
       </div>
     </div>
   );

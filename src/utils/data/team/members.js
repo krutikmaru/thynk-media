@@ -14,7 +14,7 @@ export const teamMembers = [
     image: "assets/images/team/viraj.png",
   },
   {
-    name: "Krutik Maru",
+    name: "Kishan Shah",
     role: "Developer",
     animationValues: {
       x: ["0%", "-10%", "10%", "0%"],
@@ -25,7 +25,7 @@ export const teamMembers = [
       top: "top-[15%]",
       left: "left-[55%]",
     },
-    image: "assets/images/team/krutik.png",
+    image: "assets/images/team/kishan.png",
   },
   {
     name: "Aryan Suryavanshi",
